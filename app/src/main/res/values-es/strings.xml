@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="welcome">Bienvenido</string>
+    <string name="app_name">DGMobi CA</string>
+    <string name="SmallIsolation">Petit Isolation</string>
+    <string name="btn_back">Espalda</string>
+    <string name="btn_exit">Salida</string>
+    <string name="btn_submit">Enviar</string>
+    <string name="tv_web_link"><u>http://dgsms.ca</u></string>
+    <string name="btn_delet_all">Eliminar todos</string>
+    <string name="terms_check_click"><u>Términos y Condiciones</u></string>
+    <string name="tv_mobile_lost"><b>Transferir la licencia a un nuevo móvil</b></string>
+    <string name="tv_mobile_lost_click"><u>Haga clic aquí</u></string>
+    <string name="alert_title_mobile_lost">Verificación de datos de la licencia</string>
+    <string name="coupon_check_box">Tengo un código de cupón</string>
+    <string name="btn_quit">Dejar</string>
+    <string name="toast_payment_successful">Compra éxito.</string>
+    <string name="toast_license_upgrade">Licencia actualizado correctamente</string>
+    <string name="alert_msg_payment_failed">El pago se falló. Por favor, compruebe la tarjeta &amp; otros detalles y vuelva a intentarlo.</string>
+    <string name="btn_proceed_payment">Proceder al pago</string>
+    <string name="alert_title">Mensaje de alerta</string>
+    <string name="terms_check_box">Acepto</string>
+    <string name="hint_coupon">Código promocional</string>
+    <string name="input_type_coupon">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890</string>
+    <string name="btn_apply">Aplicar</string>
+    <string name="alert_title_terms">Aceptar terminos y condiciones</string>
+    <!-- ShowAlertLicenseUpgrade-->
+    <string name="alert_msg_buy_license">Es necesario para comprar la licencia para utilizar esta aplicación.</string>
+    <string name="btn_scan">Escanear</string>
+        <!--menuItems-->
+    <string name="Menu_change_locale">Cambiar idioma</string>
+    <string name="Toast_Selected_Language">Idioma establecida en Inglés</string>
+    <string name="Dialog_Category">selecciona una categoría</string>
+    <string name="Dialog_Package_Group">Seleccione Grupo de embalaje</string>
+    <string name="Dialog_Sp84_Title">Elija un tipo de virus</string>
+    <string name="Dialog_Do_Not_Accept_Load">Insuficiente de los titulares de placa en el camión de carga no aceptan</string>
+    <string name="Dialog_Message_Select_Orders">Seleccione el orden</string>
+    <string name="Select_Description">Seleccione Descripción</string>
+    <string name="Title_Transaction_History">Historial de transacciones</string>
+    <string name="Dialog_LICENSE_VERIFY">Por favor, compruebe su licencia></string>
+    <!--buttons-->
+    <string name="Dialog_Btn_Delete_Yes">Sí</string>
+    <string name="btn_ok">DE ACUERDO</string>
+    <string name="Dialog_Btn_Delete_No">No</string>
+    <string name="Dialog_Btn_Exit">Salida</string>
+    <!--alerttitle-->
+    <string name="Dialog_Alert_Title">Mensaje de alerta</string>
+    <!--show alertverifylicense-->
+    <string name="btn_renew_now">Renovar ahora</string>
+    <string name="alert_msg_conn_nw">Por favor, conectarse a la Red de Trabajo</string>
+    <!--ergdisplay-->
+    <string name="small_Isolation">Aislamiento pequeña</string>
+    <string name="small_Daypad">pequeña Daypad</string>
+    <string name="small_Night_Pad">pequeño cojín de la Noche</string>
+    <string name="large_lsolation">gran aislamiento</string>
+    <string name="large_Day_Low_Pad">Día grande bajo Pad</string>
+    <string name="large_Day_Moderate_Pad">Día grande del cojín Moderado</string>
+    <string name="large_Day_High_Pad">Día grande de alta Pad</string>
+    <string name="large_Night_Low_Pad">gran noche bajo Pad</string>
+    <string name="large_night_Moderate_Pad">gran noche Pad Moderado</string>
+    <string name="large_Night_High_Pad">gran noche de alta Pad</string>
+    <string name="large_Day_PAD">Día grande PAD</string>
+    <string name="large_Night_Pad">gran cojín de la Noche</string>
+    <string name="Parameter">Parámetro</string>
+    <string name="S_I">SI</string>
+    <string name="Imperial">Imperial</string>
+    <string name="Spill_Isolation_Distance">Derrame Distancia de aislamiento</string>
+    <!--ergfragactivity-->
+    <string name="spill_isolation_details"><u>SDETALLES DEL DERRAME DE AISLAMIENTO</u></string>
+    <string name="tab1">RESPUESTA DE EMERGENCIA</string>
+    <string name="tab2">SEGURIDAD PÚBLICA</string>
+    <string name="tab3">PELIGROS POTENCIALES</string>
+    <!--ergfragmentone-->
+    <string name="first_aid">PRIMEROS AUXILIOS</string>
+    <string name="FIRE">FUEGO</string>
+    <string name="spill_leak">DERRAMEOFUGA</string>
+    <!--ergfragmentthree-->
+    <string name="fire_expolosion">INCENDIO O EXPLOSION</string>
+    <string name="health">SALUD</string>
+    <!--ergfragmenttwo-->
+    <string name="details">detalles</string>
+    <string name="protective_clothing">ROPA PROTECTORA</string>
+    <string name="evacuation">EVACUACIÓN</string>
+    <!--ergasyntask-->
+    <string name="Material">Material</string>
+    <string name="No_ERG_Guide">Guía para el número ONU no se encuentra</string>
+    <!--exceptions-->
+    <string name="technical_error">Error técnico, por favor intente de nuevo más tarde</string>
+    <!--&lt;!&ndash;fcmservice&ndash;&gt;-->
+    <!--<string name="db_version">1.01</string>-->
+    <string name="tv_notification_text">Por favor recoja su pedido</string>
+    <!--fragmenthome-->
+    <string name="load_item">la carga de artículos</string>
+    <string name="show_placards">Mostrar Carteles</string>
+    <string name="alert_msg_delete_all">¿Quieres eliminar todos los envíos?</string>
+    <string name="btn_continue">Continuar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="unload_title">¿Es usted desea descargar artículo?</string>
+    <string name="No_Placards_Required_Message">Cartel No se requiere</string>
+    <!--webactivity-->
+    <string name="back">Espalda</string>
+    <string name="Exit">Salida</string>
+    <string name="try_later">Por favor, inténtelo de nuevo más tarde</string>
+    <!--mobilelost-->
+    <string name="no_user_name">el usuario no existe</string>
+    <string name="alert_msg_device_verification">la verificación del dispositivo o Selección</string>
+    <string name="btn_assign">Asignar</string>
+    <string name="license_trans_fail">Error de transferencia de licencias</string>
+    <!--networkconnectivity-->
+    <string name="connect_network">Por favor, conectarse a internet de Trabajo</string>
+    <!--servicepickupfromlocal-->
+    <string name="pickup_order">Recoge Pedidos</string>
+    <!--showall-->
+    <string name="optimise">OPTIMIZADO</string>
+    <string name="semi_optimise">SEMI-OPTIMIZADAS</string>
+    <string name="non_optimise">NO-OPTIMIZADAS</string>
+    <!--<String name="not_enough">Insuficiente de los titulares de placa en el camión no aceptan</String>-->
+    <string name="Placards_On_Truck_Message">Estos Carteles) debe estar en el camión</string>
+    <!--generictextwatcher-->
+    <string name="UN_Number_4Ditgits_error">Número ONU debe ser de 4 dígitos</string>
+    <string name="Dialog_Forbidden_Message1">Prohibida Número ONU</string>
+    <string name="Dialog_InvalidUn_Message">Número ONU no válida</string>
+    <string name="Dialog_Add_Item_Tv_Residue">¿Hay residuos en el IBC?</string>
+    <!--Utils-->
+    <string name="Menu_Show_Orders">Mostrar pedidos</string>
+    <string name="Menu_History">Historia</string>
+    <string name="Menu_Items_Quit">Dejar</string>
+    <!--Addplacardactivity-->
+    <string name="Dialog_Add_Item_Title">Añadir artículo</string>
+    <string name="Dialog_Add_Item_Et_BL">Introduzca conocimiento de embarque</string>
+    <string name="Dialog_Add_Item_Et_Unumber">Un numero</string>
+    <string name="TV_UN_Description">Una descripción</string>
+    <string name="Et_DG_Mass_Pkg">DG masa / pkg</string>
+    <string name="TV_DG_Gross_Mass">DG masa bruta</string>
+    <string name="Et_No_Of_Pkg">Nº de Pkgs</string>
+    <string name="Et_ERAP">Número ERAP</string>
+    <string name="Toast_No_Network">Por favor, Conectar a la conexión a Internet de Trabajo</string>
+    <string name="Dialog_Add_Item_Btn_Scan">Escanear</string>
+    <string name="Rear_Camera_Unavailable">Frente a la cámara trasera Disponible</string>
+    <string name="Dialog_Add_Item_Btn_Display">Cartel pantalla</string>
+    <string name="trans_on_ship">Será esta remesa sea transportada en un barco?</string>
+    <string name="Please_Enter_Bill_OF_lad_error">Introduzca conocimiento de embarque</string>
+    <string name="Dialog_Add_Item_Et_GRWeight">Introduzca Peso</string>
+    <string name="Dialog_Add_Item_Et_Units">Sin entrar en las Unidades</string>
+    <string name="Dialog_Add_Item_Et_Erap">Introduzca ERAP</string>
+    <string name="Please_Enter_Gross_Weight_error">Introduzca la DG de masa bruta</string>
+    <string name="Dialog_Add_Item_Tv_IBC">Está embalando escriba un IBC?</string>
+    <!--homeactivity-->
+    <string name="Toast_Message_No_Orders">Lo sentimos, usted no tiene ninguna orden para recoger</string>
+    <string name="alert_msg_apk_update">Nueva versión disponible, qué desea actualizar?</string>
+    <string name="btn_update">Actualizar</string>
+    <string name="alert_verify_license">La aplicación necesita conexión de red para asegurarse de que los parámetros del sistema estén al día. Por favor, conectarse a la red.</string>
+    <string name="alert_msg_license_expired">Su licencia ha caducado. Es necesario renovar la licencia de uso de la aplicación.</string>
+    <string name="btn_later">Luego</string>
+    <!--mainsplashscreen-->
+    <string name="required_os">versión del sistema operativo requerido es de 4,2 y mayor, la versión actual es</string>
+    <string name="rules_msg">actualización de normas de datos es incompleta y es obligatorio. ¿Te gustaría actualizar?</string>
+    <!--alertdrytrailer-->
+    <string name="dry_trialer_msg">por favor confirmar Remolque en seco</string>
+    <string name="non_trialer_msg">Esto no puede ser transportado en una caja no seca</string>
+    <!--scanneractivity-->
+    <string name="Toast_No_Fhash_Light">Su dispositivo no tiene la linterna</string>
+</resources>

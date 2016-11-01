@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/ivPlacard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tvUnNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="2772"
+        android:background="@color/orange"
+        android:textColor="@color/black"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ivPlacard"
+        android:layout_toEndOf="@+id/ivPlacard">
+    </TextView>
+    <TextView
+        android:id="@+id/tvGroupName"
+        android:layout_alignBottom="@id/ivPlacard"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_marginBottom="15dp"></TextView>
+
+</RelativeLayout>

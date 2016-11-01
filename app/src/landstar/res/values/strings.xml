@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DGMobi CA</string>
+    <string name="dgsme">DGSMS</string>
+    <string name="driver_name">Driver Name</string>
+    <string name="version">V1.1.4</string>
+    <string name="company_name">landstar</string>
+</resources>

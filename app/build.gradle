@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+
+//    defaultConfig {
+//        applicationId "com.ideabytes.dgsms.canada"
+//        versionCode 16
+//        versionName "VB.1.0.0.1"
+//    }
+
+
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    productFlavors {
+        generic {
+            applicationId "com.ideabytes.dgsms.generic"
+            versionCode 2
+            versionName "V1.0.1"
+//            resValue "string", "app_name", "DGMobi CA"
+//            manifestPlaceholders = [
+//                    appIcon: "@drawable/launcher_icon_ca"
+//            ]
+        }
+        landstar {
+            applicationId "com.ideabytes.dgsms.landstar"
+            versionCode 2
+            versionName "V1.1.4"
+//            manifest.srcFile "landstar/AndroidManifest.xml"
+//            resValue "string", "app_name", "DGMobi LS"
+//            manifestPlaceholders = [
+//                    appIcon: "@drawable/launcher_icon_ls"
+//            ]
+        }
+
+        sourceSets {
+            // main { java.srcDirs = ['src/main/java', 'src/lanastar/java'] }
+            //debug { java.srcDirs = ['src/debug/java', 'src/landstar/java', 'src/generic/java'] }
+            debug { java.srcDirs = ['src/landstar/java', 'src/generic/java'] }
+        }
+
+
+    }
+
+
+
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+
+
+}
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/commons-lang-2.6.jar')
+    compile files('libs/zbar.jar')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.google.firebase:firebase-core:9.6.1'
+    compile 'com.google.firebase:firebase-messaging:9.6.1'
+    compile 'com.android.support:support-v4:23.4.0'
+    testCompile 'junit:junit:4.12'
+}
+apply plugin: 'com.google.gms.google-services'

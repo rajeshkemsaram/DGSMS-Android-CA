@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:id="@+id/relOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvDialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/alert_dialog_title_bg"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp" >
+
+            <ImageView
+                android:id="@+id/dialog2Close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/close" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:id="@+id/dialogLL" >
+
+        <Button
+            android:id="@+id/btnOptimized"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:text="@string/Optimized"
+            android:background="@drawable/button_color_add_placard"
+            android:textColor="#ffffff"/>
+        <Button
+            android:id="@+id/btnSemiOptimized"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:text="@string/SemiOptimized"
+            android:background="@drawable/button_color_add_placard"
+            android:textColor="#ffffff"/>
+        <Button
+            android:id="@+id/btnNonOptimized"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:text="@string/NonOptimized"
+            android:background="@drawable/button_color_add_placard"
+            android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+</RelativeLayout>

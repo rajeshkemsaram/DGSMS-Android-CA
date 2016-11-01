@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ideabytes.dgsms.landstar">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+    <!--android:icon="${appIcon}"-->
+
+
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="true">
+        <!--<activity-->
+            <!--android:name="com.ideabytes.dgsms.ca.MainSplashScreen"-->
+            <!--android:label="@string/app_name"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/TitleBarTheme">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <activity
+            android:name="com.ideabytes.dgsms.ca.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleBarTheme" />
+        <activity
+            android:name="com.ideabytes.dgsms.ca.ShowAll"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleBarTheme" />
+        <activity
+            android:name="com.ideabytes.dgsms.ca.AddPlacardDialogActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity
+            android:name="com.ideabytes.dgsms.ca.InstallApkDownloaded"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        -->
+        <activity
+            android:name="com.ideabytes.dgsms.ca.scan.ScannerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.ideabytes.dgsms.ca.rulesdata.AsynkActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleBarTheme" />
+        <activity
+            android:name="com.ideabytes.dgsms.ca.erg.FragActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ideabytes.dgsms.ca.license.WebActivity"
+            android:theme="@style/TitleBarTheme" />
+        <activity
+            android:name="com.ideabytes.dgsms.ca.license.WebActivityBuyLicesnse"
+            android:theme="@style/TitleBarTheme" />
+
+        <service
+            android:name="com.ideabytes.dgsms.ca.services.ServiceToPickupOrdersFromLocal"
+            android:enabled="true" />
+        <service
+            android:name="com.ideabytes.dgsms.ca.services.ServiceToPickupOrdersFromWeb"
+            android:enabled="true" />
+        <service
+            android:name="com.ideabytes.dgsms.ca.services.ServiceToPushOrders"
+            android:enabled="true" />
+        <service
+            android:name="com.ideabytes.dgsms.ca.services.ServiceToVerifyLicense"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.ideabytes.dgsms.ca.erg.ERGDisplay"
+            android:label="@string/title_activity_ergdisplay"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.ideabytes.dgsms.ca.fcm.MyAndroidFirebaseMsgService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.ideabytes.dgsms.ca.fcm.MyAndroidFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.ideabytes.dgsms.ca.fcm.ResultActivity"
+            android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:name="com.ideabytes.dgsms.ca.purchase.InAppPurchase" />
+        <activity
+            android:name="com.ideabytes.dgsms.ca.purchase.InAppBillingActivity"
+            android:label="@string/title_activity_in_app_billing" />
+        <activity
+            android:name="com.ideabytes.dgsms.ca.showall.ShowAllFragAct"
+            android:label="@string/title_activity_show_all_frag"></activity>
+        <activity android:name="billing.Billing"
+            android:theme="@style/TitleBarTheme"
+            android:screenOrientation="portrait"></activity>
+
+
+<activity android:name="com.ideabytes.dgsms.ca.mobilelost.MobileLostUserData"
+    android:theme="@style/TitleBarTheme">
+
+</activity>
+
+
+    </application>
+
+</manifest>

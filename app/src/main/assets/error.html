@@ -1,0 +1,37 @@
+<html>
+<head>
+    <style>
+        body{
+        background-color: #FA5858;
+        color:#fff;
+        }
+        input{
+        background-color: #F7D358;
+        width: 300px;
+        padding:10px;
+        color: #000;
+        }
+        div#content{
+        padding:20px;
+        background-color: #F7D358;
+        color: #000;
+        }
+    </style>
+    <script type="text/javascript">
+    function showAlert(buttonName) {
+        Android.showAlert(buttonName);
+    }
+</script>
+</head>
+<body>
+<center>
+    <h3>Alert Message</h3>
+    <div id="content">
+       We are facing some technical issue, Please try after some time.
+    </div>
+    <div>
+        <input type="button" value="Ok" onClick="showAlert('Exit')" /><br/>
+    </div>
+</center>
+</body>
+</html>

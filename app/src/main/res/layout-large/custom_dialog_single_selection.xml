@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="#ffffff">
+
+    <RadioGroup
+        android:id="@+id/Dialoag_Single_Choice_Radio_Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        >
+
+        <RadioButton
+            android:id="@+id/Dialoag_Single_Choice_Radio_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_radio_button_selector" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_virus_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/Dialoag_Single_Choice_Radio_Group"
+        android:layout_toStartOf="@+id/Dialoag_Single_Choice_Radio_Group"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+</RelativeLayout>
+

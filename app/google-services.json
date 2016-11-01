@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "76410469076",
+    "firebase_url": "https://dgmobi-ca-b8cc4.firebaseio.com",
+    "project_id": "dgmobi-ca-b8cc4",
+    "storage_bucket": "dgmobi-ca-b8cc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76410469076:android:34dc934e1d634275",
+        "android_client_info": {
+          "package_name": "com.ideabytes.dgsms.canada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76410469076-d71fm8m72eld7ee5aid52pbd2brm3rqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR7etfDNAVJVprC9OO3gHJjJympzVkTqw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

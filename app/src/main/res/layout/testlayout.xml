@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+         android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1"
+        android:stretchColumns="1">
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="key1"
+                android:textSize="20sp"
+
+                android:layout_gravity="fill"
+                android:textColor="@color/black"
+                android:id="@+id/tvKey0"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="value 0"
+                android:layout_gravity="fill"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/tvValue0"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text="key2gfkjjgjhgkjhfhjgfhhghjgkhhjjjjjjk"
+                android:layout_weight="1"
+
+                android:singleLine="false"
+                android:layout_gravity="fill"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/tvKey1"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="value2"
+                android:layout_gravity="fill"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/tvValue1"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text="key3gfhghhbhjg"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_gravity="fill"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/tvKey2"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="value 3"
+                android:layout_gravity="fill"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/tvValue2"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+        <TableRow android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="key 4 "
+                android:maxLines="10"
+                android:layout_weight="1"
+                android:layout_gravity="fill"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/tvKey3"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="value 4"
+                android:layout_margin="5dp"
+                android:layout_gravity="fill"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/tvValue3"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+        <TableRow android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="key 5"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_gravity="fill"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/tvKey4"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="value 5"
+                android:layout_gravity="fill"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/tvValue4"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+        <TableRow android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="key 6 "
+                android:layout_weight="1"
+                android:layout_gravity="fill"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/tvKey5"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="value 6"
+                android:layout_margin="5dp"
+                android:layout_gravity="fill"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/tvValue5"/>
+               </TableRow>
+        </TableLayout>
